@@ -1,0 +1,11 @@
+<h1>Coach screen 🚀</h1>
+<p>Member's question : <%= params["question"] %></p>
+
+<form action="/ask">
+  <p>Answer the member : <input type="text" name="answer">
+  <input type="submit" value="Answer!"></p>
+</form>
+
+<%= link_to "Ask another question", ask_path %>
+
+<!-- take_screenshot -->
